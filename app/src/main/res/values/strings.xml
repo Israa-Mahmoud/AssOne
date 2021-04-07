@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AssOne</string>
+    <string name="p">Enter your name</string>
+    <string name="V">What\'s your Gender</string>
+    <string name="B">Save</string>
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>

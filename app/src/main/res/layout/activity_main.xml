@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8DCA47"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvApp"
+        android:text="Hello World!"
+        style="@style/view_style2" />
+
+    <EditText
+        android:id="@+id/eName"
+        android:hint="Enter your name"
+        style="@style/editText_style" />
+
+    <EditText
+        android:id="@+id/eHobbies"
+        style="@style/editText_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter your hobbies"
+        android:inputType="textPersonName"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/eEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter your email"
+        style="@style/editText_style"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/ePhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter your phone number "
+        style="@style/editText_style"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/eAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter your Age"
+        style="@style/editText_style"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/eDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="today's date"
+        style="@style/editText_style"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/tGender"
+        style="@style/view_style2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/V"
+        android:textSize="24sp" />
+
+    <Spinner
+        android:id="@+id/spnGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#A3667B"
+        android:entries="@array/Gender"
+        android:dropDownWidth="wrap_content" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E82768"
+        android:text="@string/B"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
